@@ -3,8 +3,8 @@
 const int BUTTON_PIN_LEFT = 7;
 const int BUTTON_PIN_RIGHT = 4;
 
-int previousButtonStateLeft = HIGH;
-int previousButtonStateRight = HIGH;
+int previousButtonStateLeft = LOW;
+int previousButtonStateRight = LOW;
 
 void setup() {
   pinMode(BUTTON_PIN_LEFT, INPUT);
